@@ -1,0 +1,68 @@
+{
+  "name": "hypercollar",
+  "version": "1.0.0",
+  "description": "Collar - AI-powered intelligence platform for Hyperliquid",
+  "author": "Hypercollar Labs",
+  "license": "MIT",
+  "homepage": "https://hypercollar.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[your-username]/hypercollar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/[your-username]/hypercollar/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "@prisma/client": "^5.7.1",
+    "prisma": "^5.7.1",
+    "next-auth": "^4.24.5",
+    "ethers": "^6.9.0",
+    "axios": "^1.6.2",
+    "react-query": "^3.39.3",
+    "zustand": "^4.4.7",
+    "react-hook-form": "^7.48.2",
+    "zod": "^3.22.4",
+    "@hookform/resolvers": "^3.3.2",
+    "date-fns": "^3.0.6",
+    "clsx": "^2.0.0",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.294.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.0.4",
+    "prettier": "^3.1.1",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.1.5",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
