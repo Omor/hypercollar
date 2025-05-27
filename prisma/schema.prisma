@@ -52,7 +52,6 @@ model Subscription {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
-<<<<<<< HEAD
 model Newsletter {
   id        String   @id @default(cuid())
   email     String   @unique
@@ -60,9 +59,6 @@ model Newsletter {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
-=======
-
->>>>>>> 64667a3859ee0be9a46f44c5dd94096be39053ef
 model Question {
   id        String   @id @default(cuid())
   userId    String
