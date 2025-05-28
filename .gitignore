@@ -36,3 +36,5 @@ logs/
 .parcel-cache/
 tmp/
 temp/
+subscribers-backup.json
+subscribers.json
