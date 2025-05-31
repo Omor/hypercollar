@@ -98,26 +98,8 @@ export default function About() {
               <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
                 <p className="text-gray-300 mb-4">
                   Collar is proudly initiated by the Hyperdog community. As a Hyperdog NFT holder, 
-                  you get exclusive benefits across our platform:
+                  you get exclusive benefits across our platform like early access, discounts on premium packages and community participation.
                 </p>
-                <ul className="space-y-2 text-gray-300">
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#14F195]">•</span>
-                    <span><strong>4x more AI questions:</strong> 20 daily questions vs 5 for free users</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#14F195]">•</span>
-                    <span><strong>Early access:</strong> Read research reports 24 hours before public release</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#14F195]">•</span>
-                    <span><strong>40% discount:</strong> Pack Pro membership for just $29/month</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#14F195]">•</span>
-                    <span><strong>Community voice:</strong> Vote on research priorities and platform features</span>
-                  </li>
-                </ul>
               </div>
             </section>
             
