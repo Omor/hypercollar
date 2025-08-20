@@ -12,7 +12,7 @@ Collar provides comprehensive research, real-time data, and AI-powered insights 
 - 🤖 **Ask Collar** - AI assistant specialized in Hyperliquid
 - 📊 **Project Research** - Deep dives and analysis
 - 📈 **Real-time Intelligence** - Market data and alerts
-- 🐕 **Pack Benefits** - Exclusive features for Hyperdog holders
+- 🚀 **Pro Features** - Advanced analytics for power users
 
 ## 🛠 Tech Stack
 

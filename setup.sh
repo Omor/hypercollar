@@ -6,7 +6,7 @@ mkdir -p src/{app,components,lib,styles,types}
 mkdir -p public/{images,fonts}
 mkdir -p content/{research,projects,newsletter}
 mkdir -p prisma docs
-mkdir -p src/app/{api,research,projects,ask,pack,dashboard}
+mkdir -p src/app/{api,research,projects,ask,pro,dashboard}
 mkdir -p src/app/api/{auth,chat,research,projects}
 mkdir -p src/components/{ui,layout,features,shared}
 mkdir -p src/lib/{utils,api,db,auth}
@@ -26,7 +26,7 @@ Collar provides comprehensive research, real-time data, and AI-powered insights 
 - 🤖 **Ask Collar** - AI assistant specialized in Hyperliquid
 - 📊 **Project Research** - Deep dives and analysis
 - 📈 **Real-time Intelligence** - Market data and alerts
-- 🐕 **Pack Benefits** - Exclusive features for Hyperdog holders
+- 🚀 **Pro Features** - Advanced analytics for power users
 
 ## 🛠 Tech Stack
 
@@ -349,7 +349,6 @@ DATABASE_URL="postgresql://user:password@localhost:5432/hypercollar"
 NEXTAUTH_SECRET=your_nextauth_secret_here
 NEXTAUTH_URL=http://localhost:3000
 
-NEXT_PUBLIC_HYPERDOG_CONTRACT=0x0000000000000000000000000000000000000000
 NEXT_PUBLIC_HYPERLIQUID_CHAIN_ID=998
 NEXT_PUBLIC_HYPERLIQUID_RPC=https://api.hyperliquid.xyz/evm
 
@@ -381,8 +380,6 @@ model User {
   id              String    @id @default(cuid())
   wallet          String    @unique
   email           String?   @unique
-  isHyperdogHolder Boolean  @default(false)
-  hyperdogId      Int?
   tier            UserTier  @default(FREE)
   
   questionsToday  Int      @default(0)
@@ -487,9 +484,8 @@ model Research {
 
 enum UserTier {
   FREE
-  HYPERDOG
-  PACK_PRO
-  PUBLIC_PRO
+  PRO
+  PRO_PLUS
 }
 
 enum SubscriptionStatus {
@@ -500,8 +496,8 @@ enum SubscriptionStatus {
 }
 
 enum SubscriptionTier {
-  PACK_PRO
-  PUBLIC_PRO
+  PRO
+  PRO_PLUS
 }
 
 enum ProjectStatus {

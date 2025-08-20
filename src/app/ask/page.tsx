@@ -111,7 +111,7 @@ export default function AskCollar() {
               <div className="flex items-start gap-4">
                 <span className="bg-gradient-to-r from-[#14F195] to-[#3DD9EB] bg-clip-text text-transparent text-xl">•</span>
                 <div>
-                  <h3 className="font-semibold mb-1">Hyperdog Holders</h3>
+                  <h3 className="font-semibold mb-1">Pro Members</h3>
                   <p className="text-gray-300">20 questions per day + priority responses</p>
                 </div>
               </div>

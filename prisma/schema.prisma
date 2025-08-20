@@ -11,8 +11,6 @@ model User {
   id              String    @id @default(cuid())
   wallet          String    @unique
   email           String?   @unique
-  isHyperdogHolder Boolean  @default(false)
-  hyperdogId      Int?
   tier            UserTier  @default(FREE)
   
   questionsToday  Int      @default(0)
@@ -123,9 +121,8 @@ model Research {
 
 enum UserTier {
   FREE
-  HYPERDOG
-  PACK_PRO
-  PUBLIC_PRO
+  PRO
+  PRO_PLUS
 }
 
 enum SubscriptionStatus {
@@ -136,8 +133,8 @@ enum SubscriptionStatus {
 }
 
 enum SubscriptionTier {
-  PACK_PRO
-  PUBLIC_PRO
+  PRO
+  PRO_PLUS
 }
 
 enum ProjectStatus {

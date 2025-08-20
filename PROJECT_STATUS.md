@@ -18,7 +18,7 @@
 2. **Homepage**
    - Brand: "Collar" with green dot accent (#14F195)
    - Hero section with tagline
-   - 3 feature cards (Ask Collar, Research, Pack Benefits)
+   - 3 feature cards (Ask Collar, Research, Pro Analytics)
    - Newsletter signup section with clear value proposition
 
 3. **Newsletter System**
@@ -50,7 +50,7 @@
    - `/research` - Not created
    - `/about` - Not created
    - `/ask` (AI Chat) - Not created
-   - `/pack` (Hyperdog benefits) - Not created
+   - `/pro` (Pro features) - Not created
 
 3. **Database**
    - Prisma schema created but not connected
@@ -137,7 +137,7 @@ npm run dev
 - Black background with green accent (#14F195)
 - "Collar" as brand name (not "Ask Collar")
 - Newsletter focused MVP (not AI chat first)
-- Hyperdog NFT benefits planned but not implemented
+- Pro membership features planned but not implemented
 - Clean, minimal design with no wasted space
 
 ## Problems Solved
@@ -156,7 +156,7 @@ npm run dev
 ## Notes for Next Session
 - User wants clean design, no wasted space
 - Newsletter is priority before AI features
-- Plans to add Hyperdog NFT benefits later
+- Plans to add Pro Pro tier benefits later
 - Needs email platform integration
 - Ready for deployment after a few more pages
 

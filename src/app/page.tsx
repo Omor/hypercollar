@@ -31,10 +31,10 @@ export default function Home() {
             </div>
           </a>
           
-          <a href="/about#hyperdog" className="block group">
+          <a href="/about#pro-features" className="block group">
             <div className="bg-gray-900 p-6 rounded-lg border border-gray-800 group-hover:border-[#14F195] transition-colors">
-              <h2 className="text-2xl font-semibold mb-2">Hyperdog Benefits</h2>
-              <p className="text-gray-400">Exclusive features for NFT holders</p>
+              <h2 className="text-2xl font-semibold mb-2">Pro Analytics</h2>
+              <p className="text-gray-400">Advanced features for power users</p>
             </div>
           </a>
         </section>

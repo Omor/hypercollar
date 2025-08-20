@@ -57,15 +57,15 @@ export default function About() {
                 <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
                   <h3 className="text-xl font-semibold mb-3 text-[#14F195]">AI-Powered Insights</h3>
                   <p className="text-gray-300">
-                    Coming soon: Ask Collar anything about the Hyperliquid ecosystem and get instant, 
+                    Ask Collar anything about the Hyperliquid ecosystem and get instant, 
                     accurate answers powered by our proprietary knowledge base.
                   </p>
                 </div>
                 <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
-                  <h3 className="text-xl font-semibold mb-3 text-[#14F195]">Hyperdog Benefits</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-[#14F195]">Pro Analytics</h3>
                   <p className="text-gray-300">
-                    Exclusive features for Hyperdog NFT holders, including enhanced access, 
-                    early insights, and community-driven research priorities.
+                    Advanced analytics and real-time market intelligence for serious traders, 
+                    including custom alerts and deep market insights.
                   </p>
                 </div>
               </div>
@@ -93,13 +93,31 @@ export default function About() {
               </ul>
             </section>
             
-            <section id="hyperdog" className="mb-12">
-              <h2 className="text-3xl font-semibold mb-4">A Hyperdog Initiative</h2>
+            <section id="pro-features" className="mb-12">
+              <h2 className="text-3xl font-semibold mb-4">Pro Features</h2>
               <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
                 <p className="text-gray-300 mb-4">
-                  Collar is proudly initiated by the Hyperdog community. As a Hyperdog NFT holder, 
-                  you get exclusive benefits across our platform like early access, discounts on premium packages and community participation.
+                  Collar Pro offers advanced features for traders who need deeper insights and real-time analytics. 
+                  Get priority access to new features, enhanced AI responses, and exclusive research reports.
                 </p>
+                <ul className="space-y-2 text-gray-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#14F195] mt-1">•</span>
+                    <span>Real-time market alerts and notifications</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#14F195] mt-1">•</span>
+                    <span>Advanced portfolio analytics</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#14F195] mt-1">•</span>
+                    <span>Priority AI assistance</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#14F195] mt-1">•</span>
+                    <span>Early access to new features</span>
+                  </li>
+                </ul>
               </div>
             </section>
             
